@@ -1,6 +1,7 @@
-# Responsive Design
+# Responsive Web Design
 
-Goal of the project was to achieve simple, clean & crisp-looking, responsive Web design, with the slide-out menu and flash cards.
+Goal of the project was to achieve simple, clean & crisp-looking, Responsive Web Design, with the slide-out menu and flash cards.
+
 Photos of the working project are below. 
 
 ![Untitled1](https://user-images.githubusercontent.com/98010825/150174919-d76efe48-09ac-4db3-a4d3-93a785626056.png)
