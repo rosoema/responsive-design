@@ -1,0 +1,238 @@
+    
+/*---main section---*/
+html {
+  background-image: url(plant-2004483_1920.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #ebe7e4;
+}
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  color: dimgray; 
+  font-size: 11px;
+}
+body {
+  margin: 0% 5px 0% 5px;
+  font-size:10vw;
+}
+
+/*---nav section---*/
+nav {
+  margin-top: 10px;
+  position: fixed;
+  display: inline-flex;
+}
+.dropbtn {
+  margin-left: 5px;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: none;
+  background-color: rgba( 0, 0, 0, 0);
+}
+button img {
+  height: 25px;
+  width: 25px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 5px;
+  margin-left: 50px;
+  min-width: 450px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: gray;
+  margin-left: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  text-transform: none;
+  font-size: 20px;
+  display: block;
+  float: left;
+}
+.dropdown-content a:hover {
+  background-color: rgba( 166, 166, 166, 0.1);
+  border-radius: 6px;
+}
+nav:hover .dropdown-content {
+  display: block;
+  border-radius: 6px;
+}
+nav:hover .dropbtn {
+  background-color: rgba( 204, 204, 204, 0.3);
+  border-radius: 6px;
+}
+
+/*---slide section 1 --- */
+#slideout {
+  position: fixed;
+  top: 40px;
+  left: -70px;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  z-index: 1;
+}
+#slideout_inner {
+  position: fixed;
+  top: 100px;
+  left: -545px;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: rgba( 197, 205, 198, 0.3);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  color: dimgray;
+  text-align: center;
+}
+#slideout:hover {
+  left: 250px;
+}
+#slideout:hover #slideout_inner {
+  left: 0;
+}
+#slideout p {
+  margin: 65px 70px;
+}
+
+/*---slide section 2---*/
+#slideout-2 {
+  position: fixed;
+  top: 100px;
+  left: -70px;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+#slideout_inner-2 {
+  position: fixed;
+  margin-top: 220px;
+  left: -280px;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  width: 380px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: rgba( 166, 166, 166, 0.15);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  color: dimgray;
+  text-align: center;
+}
+#slideout-2:hover {
+  left: 250px;
+}
+#slideout-2:hover #slideout_inner-2 {
+  left: 0;
+}
+#slideout-2 p {
+  margin: 60px 95px;
+}
+
+/*---footer---*/
+footer p:hover {
+  color: mediumseagreen;
+}
+
+/*---media---*/
+@media (max-height: 600px) {
+  button img {
+    height: 15px;
+    width: 15px;
+  }
+  .dropbtn {
+    margin-left: 2px;
+  }
+  .dropdown-content {
+    margin-left: 34px;
+    min-width: 320px;
+  }
+  .dropdown-content a {
+    color: gray;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  #slideout_inner {
+    left: -260px;
+    top: 70px;
+    height: 200px;
+    width: 300px;
+    font-size: 15px;
+  }
+  #slideout p {
+    margin: 10px 40px;
+  }
+  #slideout_inner-2 {
+    left: -240px;
+    top: 20px;
+    height: 120px;
+    width: 300px;
+    font-size: 15px;
+  }
+  #slideout-2 p {
+    margin: 8px 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  button img {
+    height: 15px;
+    width: 15px;
+  }
+  .dropbtn {
+    margin-left: 2px;
+  }
+  .dropdown-content {
+    margin-left: 34px;
+    min-width: 320px;
+  }
+  .dropdown-content a {
+    color: gray;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  #slideout_inner {
+    left: -260px;
+    top: 70px;
+    height: 200px;
+    width: 300px;
+    font-size: 15px;
+  }
+  #slideout p {
+    margin: 10px 40px;
+  }
+  #slideout_inner-2 {
+    left: -240px;
+    top: 20px;
+    height: 120px;
+    width: 300px;
+    font-size: 15px;
+  }
+  #slideout-2 p {
+    margin: 8px 70px;
+  }
+}
