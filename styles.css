@@ -98,10 +98,12 @@ nav:hover .dropbtn {
   color: dimgray;
   text-align: center;
 }
-#slideout:hover {
+#slideout:hover,
+#slideout:active {
   left: 250px;
 }
-#slideout:hover #slideout_inner {
+#slideout:hover #slideout_inner,
+#slideout:active #slideout_inner {
   left: 0;
 }
 #slideout p {
@@ -135,10 +137,12 @@ nav:hover .dropbtn {
   color: dimgray;
   text-align: center;
 }
-#slideout-2:hover {
+#slideout-2:hover,
+#slideout-2:active {
   left: 250px;
 }
-#slideout-2:hover #slideout_inner-2 {
+#slideout-2:hover #slideout_inner-2,
+#slideout-2:active #slideout_inner-2 {
   left: 0;
 }
 #slideout-2 p {
@@ -146,7 +150,8 @@ nav:hover .dropbtn {
 }
 
 /*---footer---*/
-footer p:hover {
+footer p:hover,
+footer p:active {
   color: mediumseagreen;
 }
 
